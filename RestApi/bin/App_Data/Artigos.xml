@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<root>
+  <artigo>
+    <id>1</id>
+    <nome>1Q84</nome>
+    <descricao>Na correria do dia a dia, as pessoas viviam com os olhos voltados para o chão. E se esqueciam de olhar para o céu noturno.</descricao>
+  </artigo>
+  <artigo>
+    <id>2</id>
+    <nome>Mais 1Q84</nome>
+    <descricao>A realidade é sempre única.</descricao>
+  </artigo>
+  <artigo>
+    <id>3</id>
+    <nome>Uma categoria</nome>
+    <artigo>
+      <id>5</id>
+      <nome>Norwegian Wood</nome>
+      <descricao>Se apenas leres os livros que toda a gente lê, apenas podes pensar o mesmo que os outros estão a pensar.</descricao>
+    </artigo>
+    <artigo>
+      <id>6</id>
+      <nome>Kafka à beira-mar</nome>
+      <descricao>Um certo tipo de perfeição só pode ser atingido através de uma acumulação limitada de imperfeição.</descricao>
+    </artigo>
+  </artigo>
+  <artigo>
+    <id>4</id>
+    <nome>E ainda mais 1Q84</nome>
+    <descricao>Os maus pressentimentos têm uma percentagem de rigor muito mais alta do que os bons.</descricao>
+  </artigo>
+</root>
