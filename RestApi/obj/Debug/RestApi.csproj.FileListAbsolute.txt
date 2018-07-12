@@ -332,7 +332,6 @@ D:\users\f17069c\Documents\Visual Studio 2017\testes\RestApi\RestApi\obj\Debug\R
 D:\users\f17069c\Documents\Visual Studio 2017\testes\RestApi\RestApi\obj\Debug\RestApi.csproj.CopyComplete
 D:\users\f17069c\Documents\Visual Studio 2017\testes\RestApi\RestApi\obj\Debug\RestApi.dll
 D:\users\f17069c\Documents\Visual Studio 2017\testes\RestApi\RestApi\obj\Debug\RestApi.pdb
-C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\bin\App_Data\Artigos.xml
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\bin\RestApi.dll.config
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\bin\RestApi.dll
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\bin\RestApi.pdb
@@ -394,8 +393,9 @@ C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\bin\System.Net.Http.Formattin
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\bin\System.Web.Http.xml
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\bin\System.Web.Http.WebHost.xml
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\obj\Debug\RestApi.csprojAssemblyReference.cache
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\obj\Debug\RestApi.csproj.CoreCompileInputs.cache
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\obj\Debug\RestApi.csproj.CopyComplete
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\obj\Debug\RestApi.dll
 C:\Users\luis_\Source\Repos\RestApiDesafio\RestApi\obj\Debug\RestApi.pdb
+C:\Users\luis_\source\repos\RestApiDesafio\RestApi\obj\Debug\RestApi.csprojAssemblyReference.cache
+C:\Users\luis_\source\repos\RestApiDesafio\RestApi\bin\App_Data\Articles.xml

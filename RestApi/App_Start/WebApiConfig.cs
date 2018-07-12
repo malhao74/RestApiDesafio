@@ -9,6 +9,10 @@ namespace RestApi
     {
         public static void Register(HttpConfiguration config)
         {
+            if (config == null)
+            {
+                return;
+            }
             // Web API configuration and services
 
             // Web API routes

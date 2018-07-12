@@ -7,13 +7,14 @@ using Newtonsoft.Json;
 
 namespace RestApi
 {
-    public class DataLayerXML
+    /// <summary>
+    /// Data layer used to access the XML Article file
+    /// </summary>
+    internal static class DataLayerXML
     {
-        #region Declaracao de variaveis.
-        private static readonly string xmlFullPath = AppContext.BaseDirectory + "App_Data\\Artigos.xml";
-        #endregion
+        private static readonly string xmlFullPath = AppContext.BaseDirectory + "App_Data/Articles.xml";
 
-        #region Metodos publicos
+        #region Public methods
         public static string Get()
         {
             List<XElement> xElements = GetRoot();
@@ -34,11 +35,11 @@ namespace RestApi
         }
         #endregion
 
-        #region Metodos privados
+        #region Private methods
         private static List<XElement> GetRoot()
         {
             XElement xElement = XElement.Load(xmlFullPath);
-            return xElement.Elements("artigo").Select(x => x).ToList();
+            return xElement.Elements("article").Select(x => x).ToList();
         }
 
         private static List<XElement> GetIdFrom(List<XElement> xElements, int id)
@@ -46,19 +47,19 @@ namespace RestApi
             bool perdicate(XElement x) => (int)x.Element("id") == id;
             List<XElement> returnList = xElements.Where(perdicate).ToList();
 
-            if (returnList.Count == 0 || returnList[0].Element("descricao") == null)
+            if (returnList.Count == 0 || returnList[0].Element("description") == null)
             {
-                returnList = xElements.Where(perdicate).Elements("artigo").ToList();
+                returnList = xElements.Where(perdicate).Elements("article").ToList();
             }
             return returnList;
         }
 
         private static string XelementToArtigoToJson(List<XElement> xElements)
         {
-            List<Artigo> artigos = xElements.Select(
-                x => new Artigo((int)x.Element("id"),
-                                (string)x.Element("nome"),
-                                (string)x.Element("descricao"))
+            List<Article> artigos = xElements.Select(
+                x => new Article((int)x.Element("id"),
+                                (string)x.Element("name"),
+                                (string)x.Element("description"))
             ).ToList();
 
             string json = JsonConvert.SerializeObject(artigos);
